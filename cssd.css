@@ -1,0 +1,422 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(38, 6, 128);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content:space-between;
+    align-content:center;
+    padding: 10px 30px 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 1.1em;
+
+}
+.url a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    padding-left: 15px;
+}
+.url a:hover{
+    color: rgb(9, 255, 0);
+}
+section{
+    padding: 100px 200px;
+}
+.fas{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(imges/cov.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.fas h2{
+    color: white;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+.fas h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+   font-size: 3em;
+   font-weight: 600;
+   margin-left: 25px;
+}
+.fas h3{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.ddd {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 255);
+    text-decoration: none;
+    font-size: 1.9em;
+    font-family: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 45px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.ddd:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 248, 29);
+    transform: scale(1.1);
+}
+.icons a{
+    color: blue;
+    font-size: 1.7em;
+    padding-right: 30px;
+    transition: 0.7s;
+}
+.icons a :hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.5);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #191654;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 11px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.coved{
+    background-color: rgb(255, 255, 255);
+    width: 15.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 20%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s;
+}
+.coved:hover {
+    transform: scale(1.1);
+}
+.icon{
+    color: #191654;
+    font-size: 8em;
+    text-align:center;
+}
+.info{
+    text-align:center;
+}
+.info h3{
+    color: #191654;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.projects{
+    background-color: rgba(0, 38, 255, 0.362);
+}
+.projects .content{
+    margin-top: 30px;
+}
+.pcard{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ffffff;
+    min-width: 12em;
+    width: 23em;
+    overflow: hidden;
+    /*كسر حواف*/
+    border-radius: 15px;
+    margin:20px ;
+    transition: 0.7s;
+   }
+   .pcard:hover{
+    transform: scale(1.1);
+   }
+   .pimage img{
+    width: 100%;
+   }
+.pcard:hover .pimage img{
+ opacity: 0.9;
+}
+.pinfo{
+    padding: 1em;
+}
+.category{
+    font-size: 0.9em;
+    color: #000000;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.more{
+    text-decoration: none;
+    color: #0d00ff;
+}
+.more :hover{
+    color: #00ae0c;
+}
+.contact .icon{
+    font-size: 4.5em;
+}
+.contact .info h3{
+    color: #000000;
+}
+.contact .info p{
+    font-size: 1.2em;
+}
+/*ذيل الصفحة*/
+.footer{
+    background-color: #191654;
+    color: #ffffff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.footer-title span{
+    color: #ff0000;
+}
+.footer .icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+    transition: 0.7s;
+    color: white;
+}
+.icon img{
+    width: 100px;
+}
+/* معرض الصور */
+ .soor{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid blue;
+    background-image:url(imges/cov.jpg) ;
+    animation-name:photo;
+    animation-delay:2s ;
+    animation-duration:25s ;
+    animation-iteration-count:infinite;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+@keyframes photo{
+    10%{background-image:url(imges/s13.jpg);}
+    20%{background-image:url(imges/s1.jpeg.jpeg);}
+    30%{background-image:url(imges/s2.jpeg.jpeg);}
+    40%{background-image:url(imges/s3.jpeg.jpeg);}
+    50%{background-image:url(imges/s4.jpeg.jpeg);}
+    60%{background-image:url(imges/s5.jpeg.jpeg);}
+    65%{background-image:url(imges/s6.jpg);}
+    70%{background-image:url(imges/s7.jpg);}
+    80%{background-image:url(imges/s8.jpg);}
+    85%{background-image:url(imges/s9.jpg);}
+    90%{background-image:url(imges/s10.jpg);}
+    95%{background-image:url(imges/s11.jpeg);}
+    100%{background-image:url(imges/s12.jpg);}
+}
+.monr{
+    background-color: rgb(255, 255, 255);
+    width: 25.25em;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    transition: 0.7s;
+}
+@media(max-width:850px){
+    body{
+        font-size: 20px;
+    }
+    .soor{
+        width: 650px;
+        height: 300px;
+ }
+ }
+@media(max-width:800px){
+    body{
+        font-size: 20px;
+    }
+    header{
+        padding: 10px 10px;
+    }
+    .coved{
+        width: 550px;
+    }
+    .url a{
+        padding-right: 4px;
+    }
+    .title{
+        font-size: 1.8;
+    }
+    section{
+        padding: 50px 20px;
+    }
+    .fas h2{
+        font-size: 1.5em;
+    }
+    .fas h3{
+        font-size: 1.6em;
+    }
+    .fas .ddd{
+        font-size: 1.5em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .soor{
+        width: 600px;
+        height: 300px;
+ }
+}
+ @media(max-width:650px){
+    body{
+        font-size: 16px;
+    }
+    .coved{
+        width: 450px;
+    }
+    .soor{
+        width: 500px;
+        height: 250px;
+ }
+}
+ @media(max-width:500px){
+    body{
+        font-size: 14px;
+    }
+    .coved{
+        width: 350px;
+    }
+    .url a{
+        font-size: 0.9em;
+        font-weight: 500;
+        padding-left: 0.5px;
+    }
+    .soor{
+        width: 400px;
+        height: 200px;
+ }
+ }
+ @media(max-width:400px){
+    body{
+        font-size: 11px;
+    }
+    .coved{
+        width: 270px;
+    }
+    .url a{
+        font-size: 0.9em;
+        font-weight: 500;
+        padding-left: 0.5px;
+    }
+    .soor{
+        width: 300px;
+        height: 150px;
+ }
+ }
+@media(max-width:300px){
+
+    body{
+        font-size: 9px;
+    }
+    .coved{
+        width: 220px;
+    }
+    .soor{
+        width: 230px;
+        height: 150px;
+}
+.projects{
+    font-size: 8px;
+}
+.url a{
+    font-size: 0.5em;
+    font-weight: 400;
+    padding-left: 0.4px;
+}
+header{
+    padding: 2px;
+   }
+}
+@media(max-width:250px){
+    body{
+        font-size: 7.6px;
+    }
+.coved{
+    width: 165px;
+}
+    .projects{
+        font-size: 6.3px;
+    }
+    .soor{
+        width: 190px;
+        height: 130px;
+    }
+    .url a{
+        font-size: 1px;
+        font-weight: 100;
+        padding-left: 0.5px;
+       }
+       header{
+        padding: 1px;
+        margin-top: 1px;
+       }
+        .icon img{
+        width:60px;
+    }
+    }
+ @media(max-width:200px){
+        body{
+            font-size: 6.5px;
+        }
+        .url{
+            padding: 1px;
+        }
+        .projects{
+            font-size: 5px;
+        }
+        .soor{
+            width: 170px;
+            height: 130px;
+        }
+        .url a{
+            font-size: 0.1em;
+            font-weight: 300;
+            padding-left: 1px;
+           }
+            .icon img{
+            width:70px;
+        }
+       }
